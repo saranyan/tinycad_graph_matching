@@ -1,0 +1,10 @@
+* Schematics Netlist *
+
+M1T1 _N_1 _N_2 VDD pch
+M1T2 _N_2 _N_2 VDD pch
+M1T3 _N_4 _N_1 VDD pch
+M1T4 _N_2 _N_6 _N_5 nch
+M1T5 _N_1 _N_7 _N_5 nch
+M1T6 _N_5 _N_9 VSS nch
+M1T7 _N_4 _N_9 VSS nch
+

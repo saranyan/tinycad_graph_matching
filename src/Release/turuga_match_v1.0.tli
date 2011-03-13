@@ -1,0 +1,156 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 15.00.21022.08 (d6c919ef).
+//
+// c:\turunga\tinycad\src\release\turuga_match_v1.0.tli
+//
+// Wrapper implementations for Win32 type library ..\Turuga_Match_v1.0.tlb
+// compiler-generated file created 04/15/10 at 16:58:51 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IManagedInterface2 wrapper method implementations
+//
+
+inline HRESULT IManagedInterface2::updateBox ( _bstr_t st1 ) {
+    HRESULT _hr = raw_updateBox(st1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IManagedInterface wrapper method implementations
+//
+
+inline double IManagedInterface::matchPercent ( _bstr_t file1, _bstr_t file2 ) {
+    double _result = 0;
+    HRESULT _hr = raw_matchPercent(file1, file2, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IManagedInterface::iN ( long foo, _bstr_t g ) {
+    HRESULT _hr = raw_iN(foo, g);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IManagedInterface::gSummary ( IUnknown * g1, _bstr_t s ) {
+    HRESULT _hr = raw_gSummary(g1, s);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IManagedInterface::cN ( IUnknown * g, _bstr_t n ) {
+    HRESULT _hr = raw_cN(g, n);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IUnknownPtr IManagedInterface::getGraphFromPath ( _bstr_t path, IUnknown * gOrig ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = raw_getGraphFromPath(path, gOrig, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+inline IUnknownPtr IManagedInterface::readNetlist ( _bstr_t FileName ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = raw_readNetlist(FileName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+inline HRESULT IManagedInterface::readAllTinyCadNetlistFiles ( _bstr_t directory ) {
+    HRESULT _hr = raw_readAllTinyCadNetlistFiles(directory);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IManagedInterface::sendFromTinycad ( _bstr_t currentFile, _bstr_t directory ) {
+    HRESULT _hr = raw_sendFromTinycad(currentFile, directory);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface _TMatch wrapper method implementations
+//
+
+inline _bstr_t _TMatch::GetToString ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ToString(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL _TMatch::Equals ( const _variant_t & obj ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Equals(obj, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long _TMatch::GetHashCode ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetHashCode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline mscorlib::_TypePtr _TMatch::GetType ( ) {
+    struct mscorlib::_Type * _result = 0;
+    HRESULT _hr = raw_GetType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return mscorlib::_TypePtr(_result, false);
+}
+
+inline double _TMatch::matchPercent ( _bstr_t file1, _bstr_t file2 ) {
+    double _result = 0;
+    HRESULT _hr = raw_matchPercent(file1, file2, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT _TMatch::iN ( long foo, _bstr_t g ) {
+    HRESULT _hr = raw_iN(foo, g);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT _TMatch::gSummary ( IUnknown * g1, _bstr_t s ) {
+    HRESULT _hr = raw_gSummary(g1, s);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT _TMatch::cN ( IUnknown * g, _bstr_t n ) {
+    HRESULT _hr = raw_cN(g, n);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IUnknownPtr _TMatch::getGraphFromPath ( _bstr_t path, IUnknown * gOrig ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = raw_getGraphFromPath(path, gOrig, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+inline IUnknownPtr _TMatch::readNetlist ( _bstr_t FileName ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = raw_readNetlist(FileName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+inline HRESULT _TMatch::readAllTinyCadNetlistFiles ( _bstr_t directory ) {
+    HRESULT _hr = raw_readAllTinyCadNetlistFiles(directory);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT _TMatch::sendFromTinycad ( _bstr_t currentFile, _bstr_t directory ) {
+    HRESULT _hr = raw_sendFromTinycad(currentFile, directory);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

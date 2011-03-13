@@ -1,0 +1,243 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 15.00.21022.08 (d6c919ef).
+//
+// c:\turunga\tinycad\src\release\turuga_match_v1.0.tlh
+//
+// C++ source equivalent of Win32 type library ..\Turuga_Match_v1.0.tlb
+// compiler-generated file created 04/15/10 at 16:58:51 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("35c9bf4c-e256-4b8b-9c94-bdf1e79624c3"))
+/* LIBID */ __Turuga_Match_v1_0;
+struct __declspec(uuid("70cc157d-a078-4f09-a7b6-a46ced2dc8e2"))
+/* dual interface */ IManagedInterface2;
+struct /* coclass */ MessageLogWindow;
+struct __declspec(uuid("da78e20d-78a0-408f-b78b-89de3c723879"))
+/* dual interface */ IManagedInterface;
+struct /* coclass */ TMatch;
+struct __declspec(uuid("bcd206e7-a492-3233-b86a-e3a874a288b7"))
+/* dual interface */ _TMatch;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IManagedInterface2, __uuidof(IManagedInterface2));
+_COM_SMARTPTR_TYPEDEF(IManagedInterface, __uuidof(IManagedInterface));
+_COM_SMARTPTR_TYPEDEF(_TMatch, __uuidof(_TMatch));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("70cc157d-a078-4f09-a7b6-a46ced2dc8e2"))
+IManagedInterface2 : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT updateBox (
+        _bstr_t st1 );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_updateBox (
+        /*[in]*/ BSTR st1 ) = 0;
+};
+
+struct __declspec(uuid("09c0b14e-e06f-4606-b5cf-4d47e0f48a4e"))
+MessageLogWindow;
+    // interface _Object
+    // interface IComponent
+    // interface IDisposable
+    // interface IWin32Window
+    // [ default ] interface IManagedInterface2
+
+struct __declspec(uuid("da78e20d-78a0-408f-b78b-89de3c723879"))
+IManagedInterface : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    double matchPercent (
+        _bstr_t file1,
+        _bstr_t file2 );
+    HRESULT iN (
+        long foo,
+        _bstr_t g );
+    HRESULT gSummary (
+        IUnknown * g1,
+        _bstr_t s );
+    HRESULT cN (
+        IUnknown * g,
+        _bstr_t n );
+    IUnknownPtr getGraphFromPath (
+        _bstr_t path,
+        IUnknown * gOrig );
+    IUnknownPtr readNetlist (
+        _bstr_t FileName );
+    HRESULT readAllTinyCadNetlistFiles (
+        _bstr_t directory );
+    HRESULT sendFromTinycad (
+        _bstr_t currentFile,
+        _bstr_t directory );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_matchPercent (
+        /*[in]*/ BSTR file1,
+        /*[in]*/ BSTR file2,
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_iN (
+        /*[in]*/ long foo,
+        /*[in]*/ BSTR g ) = 0;
+      virtual HRESULT __stdcall raw_gSummary (
+        /*[in]*/ IUnknown * g1,
+        /*[in]*/ BSTR s ) = 0;
+      virtual HRESULT __stdcall raw_cN (
+        /*[in]*/ IUnknown * g,
+        /*[in]*/ BSTR n ) = 0;
+      virtual HRESULT __stdcall raw_getGraphFromPath (
+        /*[in]*/ BSTR path,
+        /*[in]*/ IUnknown * gOrig,
+        /*[out,retval]*/ IUnknown * * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_readNetlist (
+        /*[in]*/ BSTR FileName,
+        /*[out,retval]*/ IUnknown * * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_readAllTinyCadNetlistFiles (
+        /*[in]*/ BSTR directory ) = 0;
+      virtual HRESULT __stdcall raw_sendFromTinycad (
+        /*[in]*/ BSTR currentFile,
+        /*[in]*/ BSTR directory ) = 0;
+};
+
+struct __declspec(uuid("05cd1850-3d36-4cae-937d-90e00e602d40"))
+TMatch;
+    // [ default ] interface _TMatch
+    // interface _Object
+    // interface IManagedInterface
+
+struct __declspec(uuid("bcd206e7-a492-3233-b86a-e3a874a288b7"))
+_TMatch : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetToString))
+    _bstr_t ToString;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetToString ( );
+    VARIANT_BOOL Equals (
+        const _variant_t & obj );
+    long GetHashCode ( );
+    mscorlib::_TypePtr GetType ( );
+    double matchPercent (
+        _bstr_t file1,
+        _bstr_t file2 );
+    HRESULT iN (
+        long foo,
+        _bstr_t g );
+    HRESULT gSummary (
+        IUnknown * g1,
+        _bstr_t s );
+    HRESULT cN (
+        IUnknown * g,
+        _bstr_t n );
+    IUnknownPtr getGraphFromPath (
+        _bstr_t path,
+        IUnknown * gOrig );
+    IUnknownPtr readNetlist (
+        _bstr_t FileName );
+    HRESULT readAllTinyCadNetlistFiles (
+        _bstr_t directory );
+    HRESULT sendFromTinycad (
+        _bstr_t currentFile,
+        _bstr_t directory );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_ToString (
+        /*[out,retval]*/ BSTR * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_Equals (
+        /*[in]*/ VARIANT obj,
+        /*[out,retval]*/ VARIANT_BOOL * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_GetHashCode (
+        /*[out,retval]*/ long * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_GetType (
+        /*[out,retval]*/ struct mscorlib::_Type * * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_matchPercent (
+        /*[in]*/ BSTR file1,
+        /*[in]*/ BSTR file2,
+        /*[out,retval]*/ double * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_iN (
+        /*[in]*/ long foo,
+        /*[in]*/ BSTR g ) = 0;
+      virtual HRESULT __stdcall raw_gSummary (
+        /*[in]*/ IUnknown * g1,
+        /*[in]*/ BSTR s ) = 0;
+      virtual HRESULT __stdcall raw_cN (
+        /*[in]*/ IUnknown * g,
+        /*[in]*/ BSTR n ) = 0;
+      virtual HRESULT __stdcall raw_getGraphFromPath (
+        /*[in]*/ BSTR path,
+        /*[in]*/ IUnknown * gOrig,
+        /*[out,retval]*/ IUnknown * * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_readNetlist (
+        /*[in]*/ BSTR FileName,
+        /*[out,retval]*/ IUnknown * * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_readAllTinyCadNetlistFiles (
+        /*[in]*/ BSTR directory ) = 0;
+      virtual HRESULT __stdcall raw_sendFromTinycad (
+        /*[in]*/ BSTR currentFile,
+        /*[in]*/ BSTR directory ) = 0;
+};
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_Turuga_Match_v1_0 =
+    {0x35c9bf4c,0xe256,0x4b8b,{0x9c,0x94,0xbd,0xf1,0xe7,0x96,0x24,0xc3}};
+extern "C" const GUID __declspec(selectany) IID_IManagedInterface2 =
+    {0x70cc157d,0xa078,0x4f09,{0xa7,0xb6,0xa4,0x6c,0xed,0x2d,0xc8,0xe2}};
+extern "C" const GUID __declspec(selectany) CLSID_MessageLogWindow =
+    {0x09c0b14e,0xe06f,0x4606,{0xb5,0xcf,0x4d,0x47,0xe0,0xf4,0x8a,0x4e}};
+extern "C" const GUID __declspec(selectany) IID_IManagedInterface =
+    {0xda78e20d,0x78a0,0x408f,{0xb7,0x8b,0x89,0xde,0x3c,0x72,0x38,0x79}};
+extern "C" const GUID __declspec(selectany) CLSID_TMatch =
+    {0x05cd1850,0x3d36,0x4cae,{0x93,0x7d,0x90,0xe0,0x0e,0x60,0x2d,0x40}};
+extern "C" const GUID __declspec(selectany) IID__TMatch =
+    {0xbcd206e7,0xa492,0x3233,{0xb8,0x6a,0xe3,0xa8,0x74,0xa2,0x88,0xb7}};
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\turunga\tinycad\src\release\turuga_match_v1.0.tli"
+
+#pragma pack(pop)

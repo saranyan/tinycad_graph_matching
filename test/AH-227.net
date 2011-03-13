@@ -1,0 +1,17 @@
+* Schematics Netlist *
+*Push Pull amplifier - AH - 227
+
+
+C1C1 Vout GND 1p IC=0V
+R1R1 GND Vout 1K    
+M1T1 VDD _N_1 Vout nch
+M1T2 VDD _N_1 _N_2 nch
+M1T3 _N_2 _N_3 _N_9 nch
+M1T4 _N_4 _N_5 _N_6 nch
+M1T5 _N_6 _N_6 VSS nch
+M1T6 Vout _N_6 VSS nch
+M1T7 _N_9 VIN VSS nch
+M1T8 VDD VIN _N_4 nch
+
+
+

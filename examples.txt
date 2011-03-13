@@ -1,0 +1,16 @@
+Results of Spice file generation for C:\Documents and Settings\Saranyan\My Documents\Visual Studio 2008\Projects\TinyCad\examples\AMP.DSN
+
+C1: 100uF on sheet 0 has no model
+C2: 470uF on sheet 0 has no model
+J1: PHONO on sheet 0 has no model
+Q1: ZTX650 on sheet 0 has no model
+Q2: BC140 on sheet 0 has no model
+R1: 470R on sheet 0 has no model
+R2: 1K on sheet 0 has no model
+R3: 100K on sheet 0 has no model
+R4: 10K on sheet 0 has no model
+R5: 220R on sheet 0 has no model
+R6: 10K on sheet 0 has no model
+T1: 8 Ohms on sheet 0 has no model
+
+12 errors found

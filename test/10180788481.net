@@ -1,0 +1,15 @@
+* Schematics Netlist *
+
+
+M1MN1 _N_1 _N_2 _N_9 nch
+M1MN2 _N_1 _N_4 _N_3 nch
+M1MN3 _N_1 _N_6 _N_5 nch
+M1MN4 _N_1 _N_7 _N_10 nch
+M1MN5 _N_9 _N_13 _N_8 nch
+M1MN6 _N_3 _N_13 _N_8 nch
+M1MN7 _N_5 _N_11 _N_8 nch
+M1MN8 _N_10 _N_11 _N_8 nch
+R1R1 _N_1 _N_12 1K    
+V1V1 _N_13 _N_11  DC=1V  
+
+

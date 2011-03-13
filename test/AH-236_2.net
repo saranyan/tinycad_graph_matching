@@ -1,0 +1,20 @@
+* Schematics Netlist *
+*AH236 - 2-20
+
+
+C1C1 _N_6 GND 1p IC=0V
+C1C2 _N_9 GND 1p IC=0V
+C1C3 _N_2 GND 1p IC=0V
+C1C4 _N_3 GND 1p IC=0V
+M1T1 _N_9 _N_9 VDD pch
+M1T2 _N_2 _N_9 VDD pch
+M1T3 _N_6 _N_6 VDD pch
+M1T4 _N_3 _N_6 VDD pch
+M1T5 _N_2 _N_5 _N_4 nch
+M1T6 _N_6 _N_5 _N_4 nch
+M1T7 _N_9 _N_7 _N_4 nch
+M1T8 _N_3 _N_7 _N_4 nch
+M1T9 _N_4 _N_8 GND nch
+
+
+

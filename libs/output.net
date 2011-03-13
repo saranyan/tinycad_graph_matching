@@ -1,0 +1,69 @@
+; ====+  Net List for   +====
+
+; ======+ The component list
+
+COMPONENT 'C1' = Comment
+	OPTION '$$SPICE_PROLOG' = *$(Comment)
+	OPTION '$$SPICE_PROLOG_PRIORITY' = 0
+	OPTION '$$SPICE_EPILOG_PRIORITY' = 5
+	OPTION 'Comment' = 71154823438
+	OPTION 'Other' = ..
+COMPONENT 'MN?' = NMOS 3-T
+	OPTION '$$SPICE' = ?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))
+	OPTION '$$SPICE_PROLOG' = ?(not_empty(Model File),.INCLUDE "$(Model File)")
+	OPTION '$$SPICE_PROLOG_PRIORITY' = 1
+	OPTION '$$SPICE_EPILOG_PRIORITY' = 5
+	OPTION 'Package' = package name for PCB layout
+	OPTION 'Length' = 
+	OPTION 'Width' = 
+	OPTION 'Model Name' = nch
+	OPTION 'Model File' = 
+
+
+; ======+ The net list
+
+NET  'N000000' =  (MN?,S)
+NET  'N000001' =  (MN?,D)
+NET  'N000002' =  (MN?,G)
+NET  'N000003' =  (MN?,S),(MN?,S)
+NET  'N000004' =  (MN?,D),(MN?,D)
+NET  'N000005' =  (MN?,G),(MN?,G)
+NET  'N000006' =  (MN?,S),(MN?,S)
+NET  'N000007' =  (MN?,D),(MN?,D)
+NET  'N000008' =  (MN?,G),(MN?,G)
+NET  'N000009' =  (MN?,S),(MN?,S)
+NET  'N000010' =  (MN?,D),(MN?,D)
+NET  'N000011' =  (MN?,G),(MN?,G)
+NET  'N000012' =  (MN?,S),(MN?,S)
+NET  'N000013' =  (MN?,D),(MN?,D)
+NET  'N000014' =  (MN?,G),(MN?,G)
+NET  'N000015' =  (MN?,S),(MN?,S)
+NET  'N000016' =  (MN?,D),(MN?,D)
+NET  'N000017' =  (MN?,G),(MN?,G)
+NET  'N000018' =  (MN?,S),(MN?,S)
+NET  'N000019' =  (MN?,D),(MN?,D)
+NET  'N000020' =  (MN?,G),(MN?,G)
+NET  'N000021' =  (MN?,S),(MN?,S)
+NET  'N000022' =  (MN?,D),(MN?,D)
+NET  'N000023' =  (MN?,G),(MN?,G)
+NET  'N000024' =  (MN?,S),(MN?,S)
+NET  'N000025' =  (MN?,D),(MN?,D)
+NET  'N000026' =  (MN?,G),(MN?,G)
+NET  'N000027' =  (MN?,S),(MN?,S)
+NET  'N000028' =  (MN?,D),(MN?,D)
+NET  'N000029' =  (MN?,G),(MN?,G)
+NET  'N000030' =  (MN?,S),(MN?,S)
+NET  'N000031' =  (MN?,D),(MN?,D)
+NET  'N000032' =  (MN?,G),(MN?,G)
+NET  'N000033' =  (MN?,S),(MN?,S)
+NET  'N000034' =  (MN?,D),(MN?,D)
+NET  'N000035' =  (MN?,G),(MN?,G)
+NET  'N000036' =  (MN?,S)
+NET  'N000037' =  (MN?,D)
+NET  'N000038' =  (MN?,G)
+NET  'N000039' =  (MN?,S)
+NET  'N000040' =  (MN?,D)
+NET  'N000041' =  (MN?,G)
+NET  'N000042' =  (MN?,S)
+NET  'N000043' =  (MN?,D)
+NET  'N000044' =  (MN?,G)

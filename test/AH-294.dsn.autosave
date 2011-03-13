@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by TinyCAD version 2.70.00
+If you wish to view this file go to http://tinycad.sourceforge.net to
+download a copy.-->
+<TinyCADSheets>
+	<TinyCAD>
+		<NAME>Sheet 1</NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='100' snap='1'/>
+		</DETAILS>
+		<FONT id='0'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='0'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<STYLE id='2'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<FILL id='0'>
+			<INDEX>-1</INDEX>
+			<COLOR>000000</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>PMOS 3-T</NAME>
+			<REF type='0'>MP?</REF>
+			<DESCRIPTION>3-T P-Channel Insulated Gate FET</DESCRIPTION>
+			<PPP>1</PPP>
+			<FIELD>
+				<NAME>$$SPICE</NAME>
+				<DEFAULT>?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG</NAME>
+				<DEFAULT>?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>1</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>package name for PCB layout</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Length</NAME>
+				<DEFAULT></DEFAULT>
+				<FT>000000</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Width</NAME>
+				<DEFAULT></DEFAULT>
+				<FT>000000</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Model Name</NAME>
+				<DEFAULT>pch</DEFAULT>
+				<FT>000000</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Model File</NAME>
+				<DEFAULT></DEFAULT>
+				<FT>000000</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='31,28'/>
+			<TinyCAD>
+				<PIN pos='25,24' which='0' elec='4' direction='3' part='0' number='S' show='0' length='5' number_pos='0' centre_name='0'>SOURCE</PIN>
+				<PIN pos='31,24' which='0' elec='4' direction='2' part='0' number='D' show='0' length='5' number_pos='0' centre_name='0'>DRAIN</PIN>
+				<PIN pos='28,28' which='0' elec='4' direction='0' part='0' number='G' show='0' length='5' number_pos='0' centre_name='0'>GATE</PIN>
+				<POLYGON pos='25.6,25.2' style='0' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='0.4,0.8' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='26,25.2' style='0' fill='0'>
+					<POINT pos='0,0.8' arc='0'/>
+					<POINT pos='0.45,0' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='26,27' style='0' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='4,0' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='25,26' style='0' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='6,0' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='26,24' style='0' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='0,2' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='30,24' style='0' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='0,2' arc='0'/>
+				</POLYGON>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='2'>
+			<NAME type='0'>1K</NAME>
+			<REF type='0'>R?</REF>
+			<DESCRIPTION>Small Resistor</DESCRIPTION>
+			<PPP>1</PPP>
+			<FIELD>
+				<NAME>$$SPICE</NAME>
+				<DEFAULT>R$(refnum) %(1) %(2) $(NAME) ?(not_empty(TC1), $(TC1), ) ?(not_empty(TC2),  $(TC2), )</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>package name for PCB layout</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>TC1</NAME>
+				<DEFAULT></DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>TC2</NAME>
+				<DEFAULT></DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='23,33'/>
+			<TinyCAD>
+				<PIN pos='21,33' which='0' elec='0' direction='0' part='0' number='1' show='1' length='5' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='21,25.2' which='0' elec='0' direction='1' part='0' number='2' show='1' length='5' number_pos='0' centre_name='0'></PIN>
+				<POLYGON pos='20,27.6' style='0' fill='0'>
+					<POINT pos='2,0' arc='0'/>
+					<POINT pos='0,1' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='20,26.6' style='0' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='2,1' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='20,28.6' style='0' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='2,1' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='20,29.6' style='0' fill='0'>
+					<POINT pos='2,0' arc='0'/>
+					<POINT pos='0,1' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='20,30.6' style='0' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='2,1' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='20,26.2' style='0' fill='0'>
+					<POINT pos='0,0.4' arc='0'/>
+					<POINT pos='1,0' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='21,31.6' style='0' fill='0'>
+					<POINT pos='0,0.4' arc='0'/>
+					<POINT pos='1,0' arc='0'/>
+				</POLYGON>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='3'>
+			<NAME type='0'>NMOS 3-T</NAME>
+			<REF type='0'>MN?</REF>
+			<DESCRIPTION>3-T N-Channel Insulated Gate FET</DESCRIPTION>
+			<PPP>1</PPP>
+			<FIELD>
+				<NAME>$$SPICE</NAME>
+				<DEFAULT>?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG</NAME>
+				<DEFAULT>?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>1</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>package name for PCB layout</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Length</NAME>
+				<DEFAULT></DEFAULT>
+				<FT>000000</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Width</NAME>
+				<DEFAULT></DEFAULT>
+				<FT>000000</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Model Name</NAME>
+				<DEFAULT>nch</DEFAULT>
+				<FT>000000</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Model File</NAME>
+				<DEFAULT></DEFAULT>
+				<FT>000000</FT>
+				<VALUE></VALUE>
+				<POS>0,0</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='31,29'/>
+			<TinyCAD>
+				<PIN pos='31,25' which='0' elec='4' direction='2' part='0' number='S' show='0' length='5' number_pos='0' centre_name='0'>SOURCE</PIN>
+				<PIN pos='25,25' which='0' elec='4' direction='3' part='0' number='D' show='0' length='5' number_pos='0' centre_name='0'>DRAIN</PIN>
+				<PIN pos='28,29' which='0' elec='4' direction='0' part='0' number='G' show='0' length='5' number_pos='0' centre_name='0'>GATE</PIN>
+				<POLYGON pos='29.4,25' style='2' fill='0'>
+					<POINT pos='0.05,0.85' arc='0'/>
+					<POINT pos='0.6,0' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='26,28' style='2' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='4,0' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='26,25' style='2' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='0,2' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='30,25' style='2' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='0,2' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='25,27' style='2' fill='0'>
+					<POINT pos='0,0' arc='0'/>
+					<POINT pos='6,0' arc='0'/>
+				</POLYGON>
+				<POLYGON pos='29.8,25' style='0' fill='0'>
+					<POINT pos='0.19,0.01' arc='0'/>
+					<POINT pos='0.75,0.81' arc='0'/>
+				</POLYGON>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<COLOR_WIRE>FF0000</COLOR_WIRE>
+			<COLOR_BUS>0000FF</COLOR_BUS>
+			<COLOR_JUNCTION>000000</COLOR_JUNCTION>
+			<COLOR_NOCONNECT>000000</COLOR_NOCONNECT>
+			<COLOR_LABEL>208000</COLOR_LABEL>
+			<COLOR_POWER>000000</COLOR_POWER>
+			<COLOR_PIN>4040C0</COLOR_PIN>
+			<COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
+			<COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
+		</OPTIONS>
+		<SYMBOL id='1' pos='64,58' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T1' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='PMOS 3-T' show='1' pos='-4,-8'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='pch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='98,80' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T2' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='PMOS 3-T' show='1' pos='-4,-8'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='pch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='66,92' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T3' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='PMOS 3-T' show='1' pos='-4,-8'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='pch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='116,80' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T4' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='PMOS 3-T' show='1' pos='-4,-8'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='pch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='146,58' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T5' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='PMOS 3-T' show='1' pos='-4,-8'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='pch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='148,88' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T6' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='PMOS 3-T' show='1' pos='-4,-8'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='pch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='2' pos='64,118' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='R1' show='1' pos='1,-3.6'/>
+			<FIELD type='0' description='Name' value='1K' show='1' pos='1,-6'/>
+			<FIELD type='2' description='$$SPICE' value='R$(refnum) %(1) %(2) $(NAME) ?(not_empty(TC1), $(TC1), ) ?(not_empty(TC2),  $(TC2), )' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='1,-1.2'/>
+			<FIELD type='1' description='TC1' value='' show='0' pos='1,1.2'/>
+			<FIELD type='1' description='TC2' value='' show='0' pos='1,3.6'/>
+		</SYMBOL>
+		<SYMBOL id='3' pos='66,140' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T7' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='NMOS 3-T' show='1' pos='-4,-10'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='nch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='3' pos='60,166' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T8' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='NMOS 3-T' show='1' pos='-4,-10'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='nch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='3' pos='94,166' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T9' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='NMOS 3-T' show='1' pos='-4,-10'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='nch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='3' pos='118,138' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T10' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='NMOS 3-T' show='1' pos='-4,-10'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='nch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='3' pos='148,136' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T11' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='NMOS 3-T' show='1' pos='-4,-10'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='nch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='3' pos='154,166' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T12' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='NMOS 3-T' show='1' pos='-4,-10'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='nch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='3' pos='130,168' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T13' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='NMOS 3-T' show='1' pos='-4,-10'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='nch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<SYMBOL id='3' pos='114,196' part='0' rotate='3' can_scale='0' show_power='0' scale_x='1' scale_y='1'>
+			<FIELD type='0' description='Ref' value='T14' show='1' pos='-4,2'/>
+			<FIELD type='0' description='Name' value='NMOS 3-T' show='1' pos='-4,-10'/>
+			<FIELD type='2' description='$$SPICE' value='?(defined(Prefix),$(Prefix))M$(refnum) %(D) %(G) %(S) $(Model Name)?(not_empty(Length), L=$(Length))?(not_empty(Width), W=$(Width))' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG' value='?(not_empty(Model File),.INCLUDE &quot;$(Model File)&quot;)' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='1' show='0' pos='0,0'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='-4,14'/>
+			<FIELD type='0' description='Length' value='' show='1' pos='-4,4.4'/>
+			<FIELD type='0' description='Width' value='' show='1' pos='-4,6.8'/>
+			<FIELD type='0' description='Model Name' value='nch' show='1' pos='-4,9.2'/>
+			<FIELD type='0' description='Model File' value='' show='1' pos='-4,11.6'/>
+		</SYMBOL>
+		<WIRE a='60,52' b='60,38'/>
+		<WIRE a='116,38' b='146,38'/>
+		<WIRE a='146,38' b='146,52'/>
+		<WIRE a='116,74' b='116,38'/>
+		<JUNCTION pos='116,38'/>
+		<WIRE a='94,38' b='116,38'/>
+		<WIRE a='94,74' b='94,38'/>
+		<JUNCTION pos='94,38'/>
+		<WIRE a='60,38' b='94,38'/>
+		<WIRE a='60,58' b='60,86'/>
+		<WIRE a='60,86' b='62,86'/>
+		<WIRE a='62,100' b='62,110.2'/>
+		<JUNCTION pos='62,100'/>
+		<WIRE a='62,100' b='50,100'/>
+		<WIRE a='62,92' b='62,100'/>
+		<WIRE a='50,100' b='50,55'/>
+		<WIRE a='64,55' b='142,55'/>
+		<JUNCTION pos='64,55'/>
+		<WIRE a='50,55' b='64,55'/>
+		<WIRE a='62,126' b='62,134'/>
+		<JUNCTION pos='62,126'/>
+		<WIRE a='62,126' b='74,126'/>
+		<WIRE a='62,118' b='62,126'/>
+		<WIRE a='74,126' b='74,89'/>
+		<WIRE a='74,89' b='66,89'/>
+		<JUNCTION pos='74,89'/>
+		<WIRE a='74,89' b='74,85'/>
+		<WIRE a='74,85' b='144,85'/>
+		<WIRE a='146,58' b='146,82'/>
+		<WIRE a='146,82' b='148,82'/>
+		<WIRE a='104,77' b='112,77'/>
+		<WIRE a='94,102' b='94,160'/>
+		<WIRE a='60,166' b='60,176'/>
+		<WIRE a='60,176' b='94,176'/>
+		<WIRE a='94,176' b='94,166'/>
+		<JUNCTION pos='94,176'/>
+		<WIRE a='116,176' b='126,176'/>
+		<WIRE a='126,176' b='126,168'/>
+		<JUNCTION pos='126,176'/>
+		<WIRE a='126,176' b='150,176'/>
+		<WIRE a='150,176' b='150,166'/>
+		<WIRE a='154,163' b='130,163'/>
+		<WIRE a='130,163' b='130,165'/>
+		<WIRE a='56,163' b='90,163'/>
+		<WIRE a='62,140' b='60,140'/>
+		<WIRE a='60,140' b='60,160'/>
+		<WIRE a='118,138' b='116,138'/>
+		<WIRE a='116,138' b='116,176'/>
+		<JUNCTION pos='116,176'/>
+		<WIRE a='114,176' b='116,176'/>
+		<WIRE a='148,136' b='148,160'/>
+		<WIRE a='148,160' b='150,160'/>
+		<WIRE a='102,137' b='114,137'/>
+		<WIRE a='114,137' b='114,135'/>
+		<JUNCTION pos='114,135'/>
+		<WIRE a='114,135' b='144,135'/>
+		<WIRE a='144,135' b='144,133'/>
+		<WIRE a='116,114' b='116,132'/>
+		<WIRE a='116,132' b='118,132'/>
+		<JUNCTION pos='102,137'/>
+		<WIRE a='102,137' b='102,114'/>
+		<WIRE a='66,137' b='102,137'/>
+		<WIRE a='102,114' b='116,114'/>
+		<JUNCTION pos='116,114'/>
+		<WIRE a='116,80' b='116,114'/>
+		<WIRE a='148,88' b='148,130'/>
+		<JUNCTION pos='104,77'/>
+		<WIRE a='104,77' b='104,102'/>
+		<WIRE a='98,77' b='104,77'/>
+		<WIRE a='104,102' b='94,102'/>
+		<JUNCTION pos='94,102'/>
+		<WIRE a='94,80' b='94,102'/>
+		<JUNCTION pos='104,102'/>
+		<WIRE a='104,102' b='126,102'/>
+		<WIRE a='126,102' b='126,162'/>
+		<WIRE a='114,190' b='114,176'/>
+		<JUNCTION pos='114,176'/>
+		<WIRE a='94,176' b='114,176'/>
+		<WIRE a='114,196' b='114,206'/>
+		<LABEL pos='114,202' direction='3' font='0' color='208000' style='0'>VSS</LABEL>
+		<LABEL pos='106,38' direction='3' font='0' color='208000' style='0'>VDD</LABEL>
+	</TinyCAD>
+</TinyCADSheets>

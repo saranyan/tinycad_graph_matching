@@ -1,0 +1,4 @@
+Results of Spice file generation for 
+
+
+0 errors found

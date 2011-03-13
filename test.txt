@@ -1,0 +1,4 @@
+Results of Spice file generation for C:\Documents and Settings\svigraha\My Documents\Personal Documents and Misc\Temp\TinyCad\test\AH-298.dsn
+
+
+0 errors found

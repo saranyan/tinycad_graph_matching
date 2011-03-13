@@ -1,0 +1,18 @@
+* Schematics Netlist *
+*Folded current mirror AH 236
+
+
+I1I1 _N_10 _N_9  DC=1mA  
+M1T1 _N_10 _N_10 _N_11 pch
+M1T10 _N_2 _N_2 _N_9 nch
+M1T2 _N_7 _N_10 _N_11 pch
+M1T3 _N_2 _N_10 _N_11 pch
+M1T4 _N_4 _N_10 _N_11 pch
+M1T5 _N_2 _N_3 _N_1 nch
+M1T6 _N_4 _N_5 _N_1 nch
+M1T7 _N_1 _N_6 _N_9 nch
+M1T8 _N_7 _N_8 _N_9 nch
+M1T9 _N_2 _N_2 _N_9 nch
+
+
+

@@ -1,0 +1,25 @@
+* Schematics Netlist *
+
+
+C1C1 _N_7 _N_18 1p IC=0V
+R1R1 _N_19 _N_4 1K    
+M1T1 _N_2 _N_3 VDD pch
+M1T10 _N_19 _N_14 _N_10 nch
+M1T11 _N_10 _N_12 _N_11 nch
+M1T12 _N_14 _N_12 _N_11 nch
+M1T13 _N_14 _N_14 _N_11 nch
+M1T14 _N_7 _N_14 _N_13 nch
+M1T15 _N_14 _N_15 _N_11 nch
+M1T16 _N_13 _N_15 _N_11 nch
+M1T17 _N_11 _N_17 VSS nch
+M1T18 _N_18 _N_17 VSS nch
+M1T2 _N_4 _N_8 _N_2 pch
+M1T3 _N_14 _N_14 VDD pch
+M1T4 _N_5 _N_14 VDD pch
+M1T5 _N_6 _N_3 VDD pch
+M1T6 _N_7 _N_8 _N_6 pch
+M1T7 _N_9 _N_3 VDD pch
+M1T8 VSS _N_7 _N_9 pch
+M1T9 _N_18 _N_9 VDD pch
+
+

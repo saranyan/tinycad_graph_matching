@@ -1,0 +1,5 @@
+Tinycad is an open source circuit simulator.
+This version extends the functionality by adding an option to 
+compute the percentage similarity between a current circuit
+and something in the library. The similarity is computed through
+graph matching and circuit topology identification.

@@ -1,0 +1,16 @@
+* Schematics Netlist *
+
+
+C1C1 _N_6 GND 1p IC=0V
+C1C2 _N_6 GND 1p IC=0V
+C1C3 _N_6 GND 1p IC=0V
+C1C4 _N_7 GND 1p IC=0V
+M1MN1 _N_5 _N_3 GND nch
+R1R1 _N_1 _N_2 1K    
+R1R2 _N_2 _N_5 1K    
+R1R3 _N_3 _N_5 1K    
+R1R4 GND _N_3 1K    
+R1R5 _N_1 _N_6 1K    
+R1R6 _N_6 _N_7 1K    
+
+

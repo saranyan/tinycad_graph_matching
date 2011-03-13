@@ -1,0 +1,21 @@
+* Schematics Netlist *
+* Cascoded diff amp ah239
+
+
+I1I1 _N_5 _N_13  DC=1mA  
+M1T1 _N_4 _N_4 VDD pch
+M1T10 _N_10 _N_11 _N_15 nch
+M1T11 _N_15 _N_13 VSS nch
+M1T12 _N_13 _N_13 VSS nch
+M1T2 _N_1 _N_4 VDD pch
+M1T3 _N_2 _N_4 VDD pch
+M1T4 _N_5 _N_5 _N_4 pch
+M1T5 _N_7 _N_5 _N_1 pch
+M1T6 _N_8 _N_5 _N_2 pch
+M1T7 _N_7 _N_14 _N_6 nch
+M1T8 _N_8 _N_14 _N_10 nch
+M1T9 _N_6 _N_9 _N_15 nch
+V1V1 _N_14 _N_15  DC=1V  
+
+
+

@@ -1,0 +1,14 @@
+* Schematics Netlist *
+
+M1T1 _N_1 _N_2 _N_5 pch
+M1T10 _N_9 _N_14 _N_13 nch
+M1T11 _N_11 _N_14 _N_13 nch
+M1T2 _N_9 _N_3 _N_1 pch
+M1T3 _N_11 _N_4 _N_1 pch
+M1T4 _N_6 _N_6 _N_5 pch
+M1T5 _N_7 _N_6 _N_5 pch
+M1T6 _N_12 _N_8 _N_7 pch
+M1T7 _N_8 _N_8 _N_6 pch
+M1T8 _N_8 _N_10 _N_9 nch
+M1T9 _N_12 _N_10 _N_11 nch
+
